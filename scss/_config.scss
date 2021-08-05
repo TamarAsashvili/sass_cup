@@ -1,0 +1,19 @@
+//Variables
+$website-width: 1280px;
+$main-color: #ffbc00;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+
+//img comes from index.html and css
+$bg-image: url('../img/snow4.jpg');
+
+//set text color in to
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
