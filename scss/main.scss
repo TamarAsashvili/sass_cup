@@ -1,6 +1,8 @@
 @import 'config';
 @import 'utilities';
 @import 'item_grid';
+@import 'cube';
+@import 'bubbles';
 
 /*General styles*/
 * {
@@ -9,7 +11,8 @@
 }
 
 body {
-  font-family: 'Dosis', sans-serif;
+  // font-family: 'Dosis', sans-serif;
+  font-family: 'DM Serif Text', serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -67,7 +70,7 @@ h5 {
 
   a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     border-bottom: 5px transparent solid;
     padding-bottom: 0.5rem;
@@ -87,9 +90,10 @@ h5 {
 
 #header {
   &-home {
+    //background: #6ce4d4;
     background: $bg-image no-repeat center right / cover;
     height: 100vh;
-    color: #fff;
+    color: rgb(32, 25, 25);
 
     //header content
 
@@ -100,7 +104,7 @@ h5 {
       h1 {
         font-size: 4rem;
         line-height: 1.2;
-        color: rgb(7, 5, 104);
+        color: rgb(108, 41, 170);
       }
     }
   }
