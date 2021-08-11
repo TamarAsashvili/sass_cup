@@ -217,7 +217,7 @@ input[class^='btn-']:hover {
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  bottom: -70px; }
+  bottom: -70; }
 
 @keyframes bubble {
   0% {
@@ -292,8 +292,8 @@ h5 {
   height: 70px; }
 
 #logo {
-  width: 70px;
-  height: 70px; }
+  width: 100px;
+  height: 100px; }
 
 #main-nav {
   display: flex;

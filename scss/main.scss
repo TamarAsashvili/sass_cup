@@ -49,8 +49,8 @@ h5 {
 
 //logo
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
 }
 
 //main nav
@@ -91,7 +91,7 @@ h5 {
 #header {
   &-home {
     //background: #6ce4d4;
-    background: $bg-image no-repeat center right / cover;
+   background: $bg-image no-repeat center right / cover;
     height: 100vh;
     color: rgb(32, 25, 25);
 
@@ -116,7 +116,7 @@ h5 {
   }
 }
 
-//home section
+//home section   
 #home {
   //section a home
   &-a {
