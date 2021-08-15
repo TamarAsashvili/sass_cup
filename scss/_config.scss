@@ -1,19 +1,17 @@
 //Variables
 $website-width: 1280px;
-$main-color: #f3aa21;
-$light-color: #96e7da;
-$medium-color: rgb(204, 77, 198);
-$dark-color: #333;
-
+$main-color: #F99500;
+$medium-color: #a9f5e8;
+$light-color: rgb(232, 235, 85);
+$dark-color: #0C7489;
 //img comes from index.html and css
-$bg-image: url('../img/snow55.png');
-
+$bg-image: url('../img/bgg.png');
 //set text color in to
-
 @function set-text-color($color) {
-  @if (lightness($color) > 50) {
-    @return #000;
-  } @else {
-    @return #fff;
-  }
+    @if (lightness($color)>50) {
+        @return #000;
+    }
+    @else {
+        @return #fff;
+    }
 }

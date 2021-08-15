@@ -48,8 +48,8 @@ h5 {
 
 //logo
 #logo {
-    width: 300px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
 }
 
 //main nav
@@ -82,8 +82,9 @@ h5 {
 //header
 #header {
     &-home {
-        //background: #6ce4d4;
-        background: $bg-image no-repeat center right / cover;
+        background: rgb(34, 148, 212);
+        background: linear-gradient(45deg, rgba(34, 148, 212, 1) 0%, rgba(228, 251, 198, 1) 48%, rgba(12, 116, 137, 0.4598214285714286) 76%);
+        //background: $bg-image no-repeat center right / cover;
         height: 100vh;
         color: rgb(32, 25, 25);
         //header content
@@ -93,7 +94,7 @@ h5 {
             h1 {
                 font-size: 4rem;
                 line-height: 1.2;
-                color: rgb(108, 41, 170);
+                color: #0C7489;
             }
         }
     }

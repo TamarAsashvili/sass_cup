@@ -13,35 +13,35 @@
 
 .btn-main {
   color: #333;
-  background-color: #f3aa21; }
+  background-color: #F99500; }
 
 .btn-light {
   color: #333;
-  background-color: #96e7da; }
+  background-color: #e8eb55; }
 
 .btn-dark {
   color: #f4f4f4;
-  background-color: #333; }
+  background-color: #0C7489; }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: #f3aa21; }
+  background-color: #F99500; }
 
 .bg-main {
-  background: #f3aa21;
-  color: #000; }
+  background: #F99500;
+  color: #fff; }
 
 .bg-light {
-  background: #96e7da;
+  background: #e8eb55;
   color: #000; }
 
 .bg-dark {
-  background: #333;
+  background: #0C7489;
   color: #fff; }
 
 .bg-medium {
-  background: #cc4dc6;
+  background: #a9f5e8;
   color: #000; }
 
 .lead {
@@ -86,7 +86,7 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 5px;
   width: 5rem;
-  background: #f3aa21;
+  background: #F99500;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -97,7 +97,7 @@ input[class^='btn-']:hover {
 
 .item {
   position: relative;
-  background: #f3aa21;
+  background: #F99500;
   overflow: hidden; }
   .item::after {
     content: '';
@@ -175,7 +175,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #333; }
+  color: #0C7489; }
 
 ul {
   list-style: none; }
@@ -199,8 +199,8 @@ h5 {
   height: 70px; }
 
 #logo {
-  width: 300px;
-  height: 250px; }
+  width: 100px;
+  height: 100px; }
 
 #main-nav {
   display: flex;
@@ -218,12 +218,13 @@ h5 {
     padding-bottom: 0.5rem;
     transition: border-color 0.5s; }
     #main-nav a:hover {
-      border-color: #cc4dc6; }
+      border-color: #a9f5e8; }
     #main-nav a.current {
-      border-color: #f3aa21; }
+      border-color: #F99500; }
 
 #header-home {
-  background: url("../img/snow55.png") no-repeat center right/cover;
+  background: #2294d4;
+  background: linear-gradient(45deg, #2294d4 0%, #e4fbc6 48%, rgba(12, 116, 137, 0.459821) 76%);
   height: 100vh;
   color: #201919; }
   #header-home .header-content {
@@ -232,12 +233,12 @@ h5 {
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2;
-      color: #6c29aa; }
+      color: #0C7489; }
 
 #header-inner {
-  background: url("../img/snow55.png") no-repeat 20% 30%/cover;
+  background: url("../img/bgg.png") no-repeat 20% 30%/cover;
   height: 6rem;
-  border-bottom: 3px solid #f3aa21; }
+  border-bottom: 3px solid #F99500; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -245,7 +246,7 @@ h5 {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
-    color: #f3aa21;
+    color: #F99500;
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -263,9 +264,9 @@ h5 {
   #home-b .stats div {
     padding: 3rem 0; }
     #home-b .stats div:nth-child(odd) {
-      background: #96e7da; }
+      background: #e8eb55; }
     #home-b .stats div:nth-child(even) {
-      background: #cc4dc6; }
+      background: #a9f5e8; }
 
 #home-c .process {
   display: grid;
@@ -277,8 +278,8 @@ h5 {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #f3aa21;
-    color: #000;
+    background: #F99500;
+    color: #fff;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -289,7 +290,7 @@ h5 {
     font-family: 'Miss Fajardose', cursive; }
   #home-c .process-icon {
     border-radius: 50%;
-    background: #333;
+    background: #0C7489;
     color: #fff;
     padding: 2rem;
     width: 70px;
@@ -299,12 +300,12 @@ h5 {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #f3aa21;
+      background: #F99500;
       height: 80px;
       width: 80px;
       line-height: 80px; }
       #home-c .process-icon:hover .process-step {
-        background: #333;
+        background: #0C7489;
         color: #fff; }
 
 #about-a .about-info {
@@ -317,7 +318,7 @@ h5 {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #f3aa21;
+  border-left: 3px solid #F99500;
   padding: 0.8rem; }
 
 #about-a .award-1 {
@@ -332,20 +333,20 @@ h5 {
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #f3aa21;
+  color: #F99500;
   margin: 1rem; }
 
 #about-b .progress {
   overflow: hidden;
   height: 20px;
-  background: #cc4dc6;
+  background: #a9f5e8;
   border-radius: 5px;
   margin-bottom: 1rem; }
   #about-b .progress div {
     height: 100%;
-    color: #333;
+    color: #0C7489;
     text-align: center;
-    background: #f3aa21; }
+    background: #F99500; }
 
 #about-c .about-logos {
   display: grid;
@@ -364,7 +365,7 @@ h5 {
     display: flex;
     align-items: center; }
   #about-d .testimonials p {
-    border: 1px solid #cc4dc6;
+    border: 1px solid #a9f5e8;
     border-radius: 5px;
     padding: 0.5rem; }
   #about-d .testimonials img {
@@ -405,7 +406,7 @@ h5 {
   font-size: 2rem; }
 
 #main-footer {
-  background: #333;
+  background: #0C7489;
   height: 5rem;
   color: #fff; }
   #main-footer .footer-content {
@@ -416,7 +417,7 @@ h5 {
     #main-footer .footer-content .social .fab {
       text-decoration: none;
       color: #fff;
-      background: #f3aa21;
+      background: #F99500;
       margin-bottom: 1rem;
       border: 2px #fff solid;
       border-radius: 50%;
@@ -426,7 +427,7 @@ h5 {
       text-align: center;
       padding: 0.5em; }
       #main-footer .footer-content .social .fab:hover {
-        background: #cc4dc6; }
+        background: #a9f5e8; }
 
 @media (max-width: 800px) {
   #header-home {
@@ -442,7 +443,7 @@ h5 {
       padding: 1rem; }
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #f3aa21;
+    border-bottom: 3px solid #F99500;
     background-position: 20% 30%; }
     #header-home .header-content {
       display: none; }
@@ -456,7 +457,7 @@ h5 {
   .items {
     grid-template-columns: 1fr; }
   #home-a .specials div {
-    border-bottom: 2px #96e7da solid;
+    border-bottom: 2px #e8eb55 solid;
     padding-bottom: 1rem; }
     #home-a .specials div:last-child {
       border: none;
