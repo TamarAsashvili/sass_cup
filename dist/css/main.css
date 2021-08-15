@@ -170,7 +170,7 @@ input[class^='btn-']:hover {
 
 body {
   font-family: 'Dosis', sans-serif;
-  line-height: 1.6;
+  line-height: 1.4;
   background: #fff; }
 
 a {
@@ -199,8 +199,8 @@ h5 {
   height: 70px; }
 
 #logo {
-  width: 100px;
-  height: 100px; }
+  width: 80px;
+  height: 80px; }
 
 #main-nav {
   display: flex;
