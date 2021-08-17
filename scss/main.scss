@@ -1,6 +1,7 @@
 @import 'config';
 @import 'utilities';
 @import 'item_grid';
+@import 'tanina';
 
 /*General styles*/
 
@@ -47,8 +48,8 @@ h5 {
 
 //logo
 #logo {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 110px;
 }
 
 //main nav
@@ -99,9 +100,9 @@ h5 {
     }
     //header inner
     &-inner {
-        background: $bg-image no-repeat 20% 30% / cover;
-        height: 6rem;
-        border-bottom: 3px solid $main-color;
+        background: $bg-image no-repeat 20% 40% / cover;
+        height: 7rem;
+        border-bottom: 4px solid $main-color;
     }
 }
 
