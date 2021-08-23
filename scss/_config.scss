@@ -1,17 +1,16 @@
 //Variables
 $website-width: 1280px;
-$main-color: #F99500;
-$medium-color: #a9f5e8;
+$main-color: #f99500;
+$medium-color: #43e9a9;
 $light-color: rgb(232, 235, 85);
-$dark-color: #0C7489;
+$dark-color: #0c7489;
 //img comes from index.html and css
-$bg-image: url('../img/bgg.png');
+$bg-image: url('../img/bga.png');
 //set text color in to
 @function set-text-color($color) {
-    @if (lightness($color)>50) {
-        @return #000;
-    }
-    @else {
-        @return #fff;
-    }
+  @if (lightness($color) >50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
 }
