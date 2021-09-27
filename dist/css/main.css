@@ -41,7 +41,7 @@ input[class^='btn-']:hover {
   color: #fff; }
 
 .bg-medium {
-  background: #0cfafa;
+  background: #c569c1;
   color: #000; }
 
 .lead {
@@ -234,7 +234,7 @@ h5 {
     padding-bottom: 0.5rem;
     transition: border-color 0.5s; }
     #main-nav a:hover {
-      border-color: #0cfafa; }
+      border-color: #c569c1; }
     #main-nav a.current {
       border-color: #d2a12b; }
 
@@ -281,7 +281,7 @@ h5 {
     #home-b .stats div:nth-child(odd) {
       background: #e8eb55; }
     #home-b .stats div:nth-child(even) {
-      background: #0cfafa; }
+      background: #c569c1; }
 
 #home-c .process {
   display: grid;
@@ -354,7 +354,7 @@ h5 {
 #about-b .progress {
   overflow: hidden;
   height: 20px;
-  background: #0cfafa;
+  background: #c569c1;
   border-radius: 5px;
   margin-bottom: 1rem; }
   #about-b .progress div {
@@ -380,7 +380,7 @@ h5 {
     display: flex;
     align-items: center; }
   #about-d .testimonials p {
-    border: 1px solid #0cfafa;
+    border: 1px solid #c569c1;
     border-radius: 5px;
     padding: 0.5rem; }
   #about-d .testimonials img {
@@ -442,7 +442,7 @@ h5 {
       text-align: center;
       padding: 0.5em; }
       #main-footer .footer-content .social .fab:hover {
-        background: #0cfafa; }
+        background: #c569c1; }
 
 @media (max-width: 800px) {
   #header-home {
