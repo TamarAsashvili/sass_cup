@@ -1,7 +1,6 @@
 @import 'config';
 @import 'utilities';
 @import 'item_grid';
-@import 'tanina';
 
 /*General styles*/
 * {
@@ -47,7 +46,7 @@ h5 {
 
 //logo
 #logo {
-  width: 120px;
+  width: 150px;
   height: 100px;
 }
 
@@ -82,7 +81,7 @@ h5 {
 //header
 #header {
   &-home {
-    background: #bbdcfb;
+    background: #357abb;
     //background: $bg-image no-repeat center right / cover;
     height: 100vh;
     color: rgb(32, 25, 25);
@@ -234,7 +233,7 @@ h5 {
   }
   &-c {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
