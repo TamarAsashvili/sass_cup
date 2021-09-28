@@ -41,7 +41,7 @@ input[class^='btn-']:hover {
   color: #fff; }
 
 .bg-medium {
-  background: #f8f40e;
+  background: #df53ec;
   color: #000; }
 
 .lead {
@@ -218,7 +218,7 @@ h5 {
     padding-bottom: 0.5rem;
     transition: border-color 0.5s; }
     #main-nav a:hover {
-      border-color: #f8f40e; }
+      border-color: #df53ec; }
     #main-nav a.current {
       border-color: #d2a12b; }
 
@@ -270,7 +270,7 @@ h5 {
 #about-b .progress {
   overflow: hidden;
   height: 20px;
-  background: #f8f40e;
+  background: #df53ec;
   border-radius: 5px;
   margin-bottom: 1rem; }
   #about-b .progress div {
@@ -296,7 +296,7 @@ h5 {
     display: flex;
     align-items: center; }
   #about-d .testimonials p {
-    border: 1px solid #f8f40e;
+    border: 1px solid #df53ec;
     border-radius: 5px;
     padding: 0.5rem; }
   #about-d .testimonials img {
@@ -358,7 +358,7 @@ h5 {
       text-align: center;
       padding: 0.5em; }
       #main-footer .footer-content .social .fab:hover {
-        background: #f8f40e; }
+        background: #df53ec; }
 
 @media (max-width: 800px) {
   #header-home {
