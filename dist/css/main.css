@@ -17,7 +17,7 @@
 
 .btn-light {
   color: #333;
-  background-color: #70d39c; }
+  background-color: #69e4cf; }
 
 .btn-dark {
   color: #f4f4f4;
@@ -33,7 +33,7 @@ input[class^='btn-']:hover {
   color: #fff; }
 
 .bg-light {
-  background: #70d39c;
+  background: #69e4cf;
   color: #000; }
 
 .bg-dark {
@@ -388,7 +388,7 @@ h5 {
   .items {
     grid-template-columns: 1fr; }
   #home-a .specials div {
-    border-bottom: 2px #70d39c solid;
+    border-bottom: 2px #69e4cf solid;
     padding-bottom: 1rem; }
     #home-a .specials div:last-child {
       border: none;
