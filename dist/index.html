@@ -2,153 +2,543 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!--favicon-->
-    <link rel="icon" sizes="180x180" href="img/logo22.png" />
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Dosis|Miss+Fajardose&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="css/main.css" />
-    <title>taninaaframi</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skins/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--==========style switcher ========-->
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/skins/style-switcher.css">
+    <title>Marcellino</title>
 </head>
 
-<body>
-    <!--Header-->
-    <header id="header-inner">
-        <div class="container">
-            <nav id="main-nav">
-                <img src="https://picsum.photos/200/300?random=77" alt="woman" id="logo" />
+<body class="dark">
+    <!--Main container start-->
+    <div class="main-container">
+        <!--Aside start-->
 
-                <ul>
-                    <li>
-                        <a href="index.html" class="current">Home</a>
-                    </li>
-                    <li>
-                        <a href="services.html">Services</a>
-                    </li>
-                    <li>
-                        <a href="work.html">Types of pests</a>
-                    </li>
-                    <li><a href="contact.html">Contacts</a></li>
-                </ul>
-            </nav>
+        <div class="aside">
+            <div class="logo">
+                <a href="index.html"><span>M</span>arcellino</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About Me</a></li>
+                <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact Me</a></li>
+
+
+
+            </ul>
         </div>
-    </header>
-    <!--section A info-->
-    <section id="about-a" class="text-center py-3">
-        <div class="container">
-            <h2 class="section-title">Tanina</h2>
-            <div class="bottom-line"></div>
-            <p class="lead">IN BELGIUM</p>
-            <div class="about-info">
-                <img src="https://picsum.photos/200/300?random=25" alt="" class="bio-image" />
-                <div class="bio bg-light">
-                    <h4>
-                        We have the security certificates <br /> required by the main organizations, <br /> which guarantee our efficiency.
+        <!--Aside end-->
+        <!--Main content start-->
+        <div class="main-content">
+            <!--Home section start-->
+            <section class="home active section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, my name is <span class="name">Tamar Asashvili</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">web designer</span></h3>
+                            <p>I am a self taught with 6 months experience. I have a passion in web development and look for opportunity to join a new challenge. I have learned and built mini projects with basic web development such as html, css, javascript,
+                                Reactjs, django, bootstrap, tailwind, firebase and more...<br> I believe in long life learning and practicing will lead me to become a professional web developer as my goal</p>
+                            <a href="https://indd.adobe.com/view/940751c4-76b0-4ab0-9ad7-98f41831e471" class="btn" target="_blank">Download CV</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="img/6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Home section end-->
+            <!--About section start-->
+            <section class="about section " id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>
+                                About me
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'am Tamar! <span> Web Developer</span></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, consequuntur. Voluptatum magni molestias deleniti vero impedit excepturi, saepe nemo corrupti! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+                                        eum neque architecto ut distinctio ducimus repellendus dicta quos incidunt quas expedita vel provident exercitationem quidem vitae, suscipit p
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birthday : <span>1 Jan 2022</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age : <span>99</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Website : <span>www.marcellino.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>taninaaframi@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree : <span>BA</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone : <span>1111125555544445</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Based : <span>Belgium Aalst</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelance : <span>Available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+
+                                            <a href="#contact" data-section-index="1" class="btn hire-me">Hire
+                                                    Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>jS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:86% ;"> </div>
+                                                <div class="skill-percent">86%</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:76% ;"> </div>
+                                                <div class="skill-percent">76%</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>html</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:22% ;"> </div>
+                                                <div class="skill-percent">22%</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>react</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:76% ;"> </div>
+                                                <div class="skill-percent">76%</div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- timeline item-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2013 -2016
+                                                    </h3>
+                                                    <h4 class="timeline-title">
+                                                        Master in computer science
+                                                    </h4>
+                                                    <p class="timeline-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa quos dignissimos ipsam commodi, fugit unde aut autem sit eaque.
+                                                    </p>
+
+                                                </div>
+                                                <!-- timeline item-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-car"></i> 2013 -2016
+                                                    </h3>
+                                                    <h4 class="timeline-title">
+                                                        Master in computer science
+                                                    </h4>
+                                                    <p class="timeline-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa quos dignissimos ipsam commodi, fugit unde aut autem sit eaque.
+                                                    </p>
+
+                                                </div>
+                                                <!-- timeline item-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-bathtub"></i> 2013 -2016
+                                                    </h3>
+                                                    <h4 class="timeline-title">
+                                                        Master in computer science
+                                                    </h4>
+                                                    <p class="timeline-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa quos dignissimos ipsam commodi, fugit unde aut autem sit eaque.
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- timeline item-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2013 -2016
+                                                    </h3>
+                                                    <h4 class="timeline-title">
+                                                        Master in computer science
+                                                    </h4>
+                                                    <p class="timeline-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa quos dignissimos ipsam commodi, fugit unde aut autem sit eaque.
+                                                    </p>
+
+                                                </div>
+                                                <!-- timeline item-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-car"></i> 2013 -2016
+                                                    </h3>
+                                                    <h4 class="timeline-title">
+                                                        Master in computer science
+                                                    </h4>
+                                                    <p class="timeline-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa quos dignissimos ipsam commodi, fugit unde aut autem sit eaque.
+                                                    </p>
+
+                                                </div>
+                                                <!-- timeline item-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-bathtub"></i> 2013 -2016
+                                                    </h3>
+                                                    <h4 class="timeline-title">
+                                                        Master in computer science
+                                                    </h4>
+                                                    <p class="timeline-text">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa quos dignissimos ipsam commodi, fugit unde aut autem sit eaque.
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--About section end-->
+
+            <!--service section Start-->
+
+            <section class="service section " id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Service items start here  -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-clapperboard"></i>
+                                </div>
+                                <h4>Web development</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <!--  Service items end here  -->
+                        <!--  Service items start here -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Web development</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <!--  Service items end here  -->
+                        <!--  Service items start here  -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Web development</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <!--  Service items end here -->
+                        <!--  Service items start here  -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Web development</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <!--  Service items end here -->
+                        <!--  Service items start here  -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bacon"></i>
+                                </div>
+                                <h4>Web development</h4>
+                                <p>44, natus. m dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <!--  Service items end here -->
+                        <!--  Service items start here  -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code-branch"></i>
+                                </div>
+                                <h4>Web development</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <!--  Service items end here  -->
+                    </div>
+                </div>
+            </section>
+
+            <!--service section End-->
+            <!--Portfolio section End-->
+            <section class="portfolio section " id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My Last Projects: </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--Portfolio item start-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="/dist/img/2.jpg" alt="projects">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Portfolio item end-->
+                        <!--Portfolio item start-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="/dist/img/6.jpg" alt="projects">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Portfolio item end-->
+                        <!--Portfolio item start-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="/dist/img/3.jpg" alt="projects">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Portfolio item end-->
+                        <!--Portfolio item start-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="/dist/img/4.jpg" alt="projects">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Portfolio item end-->
+                        <!--Portfolio item start-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="/dist/img/1.jpg" alt="projects">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Portfolio item end-->
+                        <!--Portfolio item start-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="/dist/img/5.jpg" alt="projects">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Portfolio item end-->
+                    </div>
+                </div>
+            </section>
+            <!--Portfolio section End-->
+
+
+            <!--Contact section start-->
+            <div class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Have You any question ?</h3>
+                    <h4 class="contact-sub-title padd-15">I am at your Services</h4>
+
+                    <div class="row">
+                        <!--- Contact info start here -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-car"></i></div>
+                            <h4>Call Me On</h4>
+                            <p>+00 123 456 789</p>
+                        </div>
+                        <!--- Contact info start here -->
+                        <!--- Contact info start here -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>patpicha.sit@gmail.com</p>
+                        </div>
+                        <!--- Contact info start here -->
+                        <!--- Contact info start here -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-users"></i></div>
+                            <h4>Let's Connect</h4>
+                            <p>www.instagram.com/pattyindev</p>
+                        </div>
+                        <!--- Contact info start here -->
+                        <!--- Contact info start here -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-code-branch"></i></div>
+                            <h4>GitHub</h4>
+                            <p>www.github.com/PattyCutie</p>
+                        </div>
+                        <!--- Contact info start here -->
+                    </div>
+                    <h3 class="contact-title padd-15">PING ME MESSAGE AND BOUNCING THE IDEA !</h3>
+                    <h4 class="contact-sub-title padd-15">I AM VERY RESPONSIVE AND ALWAYS HAPPY TO HEAR FROM YOU
                     </h4>
-                    <br />
-                    <br /><br />
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia iure vel nihil aspernatur. Tenetur accusamus voluptas qui recusandae, et amet!
-                    </p>
-                </div>
-                <div class="award-1">
-                    <i class="fas fa-syringe fa-3x"> </i>
-                    <h3>Treatment of bedbugs</h3>
-                    <p>
-                        The bedbug is a tiny, oval-shaped, brownish-colored parasitic insect that feeds exclusively on the blood of humans or pets. Because they are very small, have nocturnal habits.
-                    </p>
-                </div>
-                <div class="award-2">
-                    <i class="fas fa-spider fa-3x"> </i>
-                    <h3>Deratisation</h3>
-                    <p>
-                        These rodents are active during the night, so it will be rare to see them. As soon as you notice the different signs or see one of these rodents, call an expert immediately.
-                    </p>
-                </div>
-                <div class="award-3">
-                    <i class="fas fa-bullseye fa-3x"> </i>
-                    <h3>Desinfection</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, modi.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--section B progress bars removed-->
+                    <!-- Contact form -->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="" placeholder="Message..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item padd-15">
+                                    <div class="form-group">
+                                        <button class="btn">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-    <!--section C logos-->
-    <section id="about-c" class="py-4 bg-light">
-        <div class="container">
-            <div class="about-logos">
-                <img src="https://picsum.photos/200/300?random=28" alt="html" />
-                <img src="https://picsum.photos/200/300?random=20" alt="css" />
-                <img src="https://picsum.photos/200/300?random=22" alt="react" />
-                <img src="https://picsum.photos/200/300?random=4" alt="js" />
-                <img src="https://picsum.photos/200/300?random=7" alt="sass" />
-            </div>
-        </div>
-    </section>
-    <!--Section D testimonials-->
-    <section id="about-d" class="py-4">
-        <div class="container">
-            <h2 class="section-title">Testimonials--</h2>
-            <div class="bottom-line"></div>
-            <p class="lead text-center">Take look what my clients say .....</p>
-            <div class="testimonials">
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor maxime tempora alias possimus suscipit, quis sunt beatae minus temporibus atque dolorem vero nam, repellendus nobis. Quo, ex.
-                    </p>
-                    <ul>
-                        <li><img src="https://picsum.photos/200/300?random=210" alt="p1" /></li>
-                        <li>New York</li>
-                    </ul>
-                </div>
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor maxime tempora alias possimus suscipit, quis sunt beatae minus temporibus atque dolorem vero nam, repellendus nobis. Quo, ex.
-                    </p>
-                    <ul>
-                        <li><img src="https://picsum.photos/200/300?random=12" alt="p2" /></li>
-                        <li>Lorem, ipsum dolor.</li>
-                    </ul>
-                </div>
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor maxime tempora alias possimus suscipit, quis sunt beatae minus temporibus atque dolorem vero nam, repellendus nobis. Quo, ex.
-                    </p>
-                    <ul>
-                        <li><img src="https://picsum.photos/200/300?random=77" alt="p3" /></li>
-                        <li>Lorem, ipsum dolor.</li>
-                    </ul>
-                </div>
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor maxime tempora alias possimus suscipit, quis sunt beatae minus temporibus atque dolorem vero nam, repellendus nobis. Quo, ex.
-                    </p>
-                    <ul>
-                        <li><img src="https://picsum.photos/200/300?random=27" alt="p4" /></li>
-                        <li>Lorem, ipsum dolor.</li>
-                    </ul>
+                    </div>
                 </div>
             </div>
+
+            <!--Contact section End-->
         </div>
-    </section>
-    <!--Footer-->
-    <footer id="main-footer">
-        <div class="footer-content container">
-            <p>&copy; 2021</p>
-            <div class="social">
-                <a href="https://www.facebook.com" class="fab fa-facebook" target="_blank"></a>
-                <a href="https://www.facebook.com" class="fab fa-instagram" target="_blank"></a>
-                <a href="https://www.facebook.com" class="fab fa-linkedin" target="_blank"></a>
-            </div>
+        <!--Main content end-->
+    </div>
+    <!--Main container end-->
+    <!--Style swich start here-->
+    <div class="style-switcher ">
+        <div class="style-switcher-toggler s-icon ">
+            <i class="fas fa-cog fa-spin"></i>
         </div>
-    </footer>
+        <div class="day-night s-icon">
+            <i class="fas "></i>
+        </div>
+
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--Style swich end here-->
+    <!--js files-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
 </body>
 
 </html>
