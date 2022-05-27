@@ -1,10 +1,10 @@
 /*typing animation */
 var typed = new Typed('.typing', {
-    strings: ["", "Web Designer", "Web developer", "Graphic Designer", "YouTuber"],
+    strings: [" ", "  Marcellino"],
     typeSpeed: 150,
     BackSpeed: 60,
     showCursor: true,
-    cursorChar: ' ♡ ',
+    cursorChar: '|',
     loop: true
 })
 
