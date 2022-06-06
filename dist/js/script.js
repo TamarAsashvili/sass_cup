@@ -1,6 +1,6 @@
 /*typing animation */
 var typed = new Typed('.typing', {
-    strings: [" ", "  Marcellino"],
+    strings: [" ", "  Marcelino"],
     typeSpeed: 150,
     BackSpeed: 60,
     showCursor: true,
